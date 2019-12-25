@@ -21,10 +21,10 @@ handleSubmit = (e) =>{
 
     render(){
         return(
-            <div>
+            <div >
                 <form onSubmit={this.handleSubmit}>
-                    <label>Add Today's Todo:</label>
-                    <input type="text" onChange={this.handelChange} value={this.state.content}/>
+                    <label className="text">Add Today's Todo:</label>
+                    <input  type="text" onChange={this.handelChange} value={this.state.content}/>
 
                 </form>
 

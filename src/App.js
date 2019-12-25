@@ -32,6 +32,7 @@ render(){
   return (
     <div className="todo-app container">
       <h1 className="center blue-text"> Todo List </h1>
+      <label className="text">Click on content to delete:</label>
       <Todos todos={this.state.todos} deleteTodo={this.deleteTodo}/>
       <AddForm addForm={this.addForm}/>
     </div>
