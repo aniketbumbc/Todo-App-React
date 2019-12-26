@@ -17,15 +17,12 @@ handleSubmit = (e) =>{
         content:''
     })
 }
-
-
     render(){
         return(
             <div >
                 <form onSubmit={this.handleSubmit}>
                     <label className="text">Add Today's Todo:</label>
-                    <input  type="text" onChange={this.handelChange} value={this.state.content}/>
-
+                    <input className="left blue-text" type="text" onChange={this.handelChange} value={this.state.content}/>
                 </form>
 
             </div>
@@ -33,4 +30,4 @@ handleSubmit = (e) =>{
     }
 }
 
-export default AddForm
+export default AddForm;

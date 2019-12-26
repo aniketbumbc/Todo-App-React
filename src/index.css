@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(158, 199, 61);
+  background-color: rgb(24, 3, 3);
 }
 
 code {
@@ -15,4 +15,7 @@ code {
 .text{
   color: crimson;
   font-size: 12px;
+}
+h1{
+  font-family: cursive;
 }
